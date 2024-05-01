@@ -1,0 +1,59 @@
+.container2{
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Para que los elementos se envuelvan en pantallas pequeñas */
+
+    p {
+        color: #333;
+        line-height: 1.6;
+        text-align: center;
+        margin-bottom: 10px ;
+    }
+    border-bottom: none;
+}
+
+.column-left,
+.column-right {
+    margin-top: 0;
+    flex-basis: 100%; /* Por defecto, ocupa todo el ancho en pantallas pequeñas */
+    padding: 0; /* Eliminamos el padding para que no haya espacio extra en pantallas pequeñas */
+    border-right: none; /* Eliminamos el borde derecho en pantallas pequeñas */
+}
+
+.column-left {
+    margin-top: 0;
+    border-right: 1px solid #000;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+.column-right {
+    display: flex;
+    justify-content: center;
+    margin-top: 0;
+    padding-left: 20px;
+    flex-shrink: 1;
+}
+
+.about-us {
+    margin-top: 0;
+    padding: 50px;
+}
+
+h2{
+    color: #333;
+    text-align: center;
+
+}
+
+
+
+/* Media query para pantallas más grandes */
+@media screen and (min-width: 768px) {
+    .column-left,
+    .column-right {
+        flex-basis: 45%; /* Vuelve a ocupar el 45% del ancho en pantallas grandes */
+        padding: 0 20px; /* Agregamos padding en pantallas grandes */
+    }
+}

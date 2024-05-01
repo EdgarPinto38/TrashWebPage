@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trash Gamez</title>
+    
+    <link rel="icon" href="./static/img/LogoRosa.png" type="favicon">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+
+  <body>
+     
+
+   <section id="navbar">
+    <link rel="stylesheet" href="./src/css/navbar.css" />
+      <header>
+        <nav>
+          <ul class="nav-bar">
+            <li class="logo">
+              <a href="#"><img src="./static/img/LogoBlanco.png"/></a>
+            </li>
+            <input type="checkbox" id="check" />
+            <span class="menu">
+              <li><a href="#Home">Home</a></li>
+              <li><a href="#Games">Games</a></li>
+              <!--<li><a href="#Blog">Blog</a></li>-->
+              <li><a href="#AboutUs">About Us</a></li>
+              <li><a href="#Team">Team</a></li>
+              <li><a href="#Contact">Contact</a></li>
+              <label for="check" class="close-menu"
+                ><i class="fas fa-times"></i
+              ></label>
+            </span>
+            <label for="check" class="open-menu"
+              ><i class="fas fa-bars"></i
+            ></label>
+          </ul>
+        </nav>
+      </header>
+    </section>
+    <!--Canvas-->
+    <div>
+      <link rel="stylesheet" href="./src/css/ModeloMapache.css" />
+      <canvas id="bg"></canvas>
+    </div>
+    <!--Termina Canvas-->
+    <section id="Home">
+      <link rel="stylesheet" href="./src/css/vrhelsing.css" />
+      <div class="video-section">
+        <video autoplay loop muted>
+          <source src="./static/video/vrhelsing.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="image-column">
+            <img src="./static/img/VRHelsingLogo.png" alt="Imagen de ejemplo" />
+          </div>
+          <div class="text-column">
+            <p>
+              VR Helsing is a virtual reality game based on the famous 19th century monster hunter, Abraham Van Helsing.
+              19th century monster hunter Abraham Van Helsing. The
+              players take on his role and embark on thrilling adventures to hunt down and eliminate
+              to hunt down and eliminate supernatural creatures. With
+              stunning graphics and an immersive experience, players are immersed in a gothic
+              immersed in a gothic world full of dangers and mysteries,
+              using weapons and special abilities to confront the dark forces that lurk in the night.
+            </p>
+            <br />
+            <br />
+            <button class="play-button">Play</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <section id="Games">
+      <link rel="stylesheet" href="./src/css/games.css" />
+      <h1>Games</h1>
+      <title>Our Games</title>
+      <div class="card__container">
+        <article class="card__article">
+          <img src="./static/img/VrHelsing1.png" alt="image" class="card__img" />
+          <div class="card__data">
+            <h2 class="card__title">VR Helsing</h2>
+            <a href="#" class="card__button">En desarrollo</a>
+          </div>
+        </article>
+
+        <article class="card__article">
+          <img src="./static/img/CrazyDelivery1.png" alt="image" class="card__img" />
+          <div class="card__data">
+            <h2 class="card__title">Crazy Delivery</h2>
+            <a href="https://play.google.com/store/apps/details?id=com.TrashGamez.CrazyDelivery" class="card__button">Play</a>
+          </div>
+        </article>
+
+        <article class="card__article">
+          <img src="./static/img/MagicTrain1.png" alt="image" class="card__img" />
+          <div class="card__data">
+            <h2 class="card__title">Crazy Color Magic Train Adventure</h2>
+            <a href="https://ozcardev.itch.io/crazy-color-magic-train-adventure" class="card__button">Play</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <br>
+    <br>
+    <br>
+
+
+    <!--About us-->
+    <section id="AboutUs">
+      <h1>About Us</h1>
+      <link rel="stylesheet" href="./src/css/aboutUS.css" />
+      <div class="container2 ">
+        <div class="column-left">
+          <h2>Mission</h2>
+          <p>
+            Create innovative and exciting gaming experiences that captivate gamers around the world.
+            players around the world. We strive to develop
+            unique and memorable games that challenge the boundaries of creativity and
+            creativity and technology, providing high quality entertainment for our players and contributing to the growth and
+            entertainment for our players and contributing to the growth and evolution of the video game
+            and evolution of the video game industry.
+          </p>
+          <h2>Vision</h2>
+          <p>
+            To be recognized as a benchmark in the video game industry, standing out for our ability to create
+            industry, standing out for our ability to create impactful and original gaming experiences.
+            original and impactful game experiences. We seek to be leaders
+            in innovation, offering titles that inspire and connect gamers of all ages and cultures
+            players of all ages and cultures around the world. We
+            strive to be a constant source of fun and excitement in people's lives.
+          </p>
+          <h2>Values</h2>
+          <p style="margin-bottom: 5px">
+            At Trash Gamez we value creativity, quality, innovation and integrity in everything we do.
+            integrity in everything we do. We seek to break barriers and
+            explore new frontiers in game design and technology,
+            delivering high quality products that surprise and excite our players.
+            our players. We are committed to acting with honesty and ethics, respecting our
+            respecting our community and maintaining high standards of excellence in all our actions.
+            of excellence in all our actions. Our passion for gaming drives us to
+            our passion for the game drives us to exceed expectations and provide inclusive and enriching
+            experiences for all our players.
+          </p>
+        </div>
+        <div class="column-right">
+          <img
+            src=""
+            alt="prueba"
+            width="300"
+            height="auto"
+            style="justify-content: center; object-fit: cover; "
+          />
+        </div>
+      </div>
+    </section>
+    <!--Termina About us-->
+
+    <section id="Team">
+      <link rel="stylesheet" href="./src/css/team.css" />
+      <h1>Our Team</h1>
+      <div class="container-card">
+        <div class="card">
+          <figure>
+            <img src="./static/img/5.png" />
+          </figure>
+          <div class="contenido-card">
+            <h3>Ana Rodríguez</h3>
+            <p>Scrum Master</p>
+            <a href="./src/html/team/ana.html">More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <figure>
+            <img src="./static/img/6.png" />
+          </figure>
+          <div class="contenido-card">
+            <h3>Luis Martín</h3>
+            <p>Lead Developer</p>
+            <a href="./src/html/team/dante.html">More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <figure>
+            <img src="./static/img/2.png" />
+          </figure>
+          <div class="contenido-card">
+            <h3>Edgar Pinto</h3>
+            <p>Level Designer</p>
+            <a href="./src/html/team/edgar.html">More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <figure>
+            <img src="./static/img/4.png" />
+          </figure>
+          <div class="contenido-card">
+            <h3>Edson Gutierrez</h3>
+            <p>Modeling and rigging manager</p>
+            <a href="./src/html/team/edson.html">More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <figure>
+            <img src="./static/img/1.png" />
+          </figure>
+          <div class="contenido-card">
+            <h3>Oscar Nuñez</h3>
+            <p>Project Manager</p>
+            <a href="./src/html/team/oscar.html">More</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <figure>
+            <img src="./static/img/3.png" />
+          </figure>
+          <div class="contenido-card">
+            <h3>Santiago Mondragón</h3>
+            <p>Visual Art Designer</p>
+            <a href="./src/html/team/santy.html">More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <!--Formulario-->
+    <div id="#Contact">
+      <link rel="stylesheet" href="./src/css/form.css" />
+      <h1 style="margin-bottom: 25px;">Contact Us</h1>
+      <form
+        method="POST"
+        action="https://formsubmit.co/trashgamez.contact@gmail.com"
+      >
+        <label for="nombre">Name:</label><br />
+        <input type="text" id="name" name="name" /><br />
+
+        <label for="email">E-mail:</label><br />
+        <input type="email" id="email" name="email" /><br />
+
+        <label for="subject">Budget:</label><br />
+        <input type="text" id="subject" name="subject" /><br />
+
+        <label for="coments">Message:</label><br />
+        <textarea id="coments" name="coments"></textarea><br />
+
+        <input type="submit" value="Enviar" />
+        <!-- <input type="hidden" name="_next" value="http://127.0.0.1:5500/html/index.html"> 
+      <input type="hidden" name="_captcha" value="false">-->
+      </form>
+    </div>
+    <!--Termina formulario-->
+
+    <br>
+    <br><br>
+    <br>
+    <br>
+
+
+    <footer>
+      <link rel="stylesheet" href="./src/css/footer.css" />
+      <div class="footer-container">
+        <div class="footer-content-container">
+          <h3 class="website-logo">Trash Gamez</h3>
+          <span class="footer-info">55 15 96 44 48</span>
+          <span class="footer-info">trashgames@gmail.com</span>
+        </div>
+        <div class="footer-menus">
+          <div class="footer-content-container">
+            <span class="menu-title">menu</span>
+            <a href="#Home" class="menu-item-footer">Home</a>
+            <a href="/src/html/nodispo.html" class="menu-item-footer">Blog</a>
+            <a href="#Contact" class="menu-item-footer">Contact Us</a>
+          </div>
+          <div class="footer-content-container">
+            <span class="menu-title">legal</span>
+            <a href="" class="menu-item-footer">Privacy Policy</a>
+            <a href="" class="menu-item-footer">Cookies</a>
+            <a href="" class="menu-item-footer">Legal Advice</a>
+          </div>
+        </div>
+
+        <div class="footer-content-container">
+          <span class="menu-title">follow us</span>
+          <div class="social-container">
+            <a href="https://x.com/TrasherzG?t=dbEixKZyLRd2aA14DLadxw&s=09" class="social-link"></a>
+            <a href="https://www.instagram.com/trasherzg?igsh=MWo2dWpnN2UxZHk1Zg==" class="social-link"></a>
+            <a href="https://youtube.com/@TrasherzG?si=Cy6A4kvpSvCmzn44" class="social-link"></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright-container">
+        <span class="copyright"
+          >Copyright 2024, trashgamez.com. All rights reserved.</span
+        >
+      </div>
+    </footer>
+    <script src="/src/javascript/Particles.js" type="module"></script> 
+  </body>
+</html>
