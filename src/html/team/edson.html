@@ -38,9 +38,7 @@
             <h1>Edson Guitierrez</h1>
             <h2>Animation and rigging manager</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/edson-guti%C3%A9rrez-prado-95368b27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
     </section>
@@ -104,10 +102,11 @@
                     </div>
                 </div>
             </div>
-            <button>
-                Download CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
+            <a id="downloadLink" href="/static/cv/CVEdson.pdf" download="CVEdson.pdf" style="display: none;"></a>
+            <button onclick="downloadCV()">
+            Download CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+         </button>
         </div>
     </section>
 
@@ -186,5 +185,11 @@
     </footer>
 
     <script src="/src/javascript/script.js"></script>
+    <script src="/src/javascript/script.js"></script>
+    <script>
+        function downloadCV() {
+            document.getElementById('downloadLink').click();
+        }
+    </script>
 </body>
 </html>

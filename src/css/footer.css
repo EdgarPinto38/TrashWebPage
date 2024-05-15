@@ -93,7 +93,7 @@ footer .website-logo{
 .social-link{
     height: 100%;
     width: 30px;
-    background-image: url(/img/Twitter.png);
+    background-image: url(/static/img/Twitter.png);
     background-size: 70%;
     background-position: center;
     margin-right: 1rem;
@@ -105,11 +105,11 @@ footer .website-logo{
 }
 
 footer .social-link:nth-of-type(2){
-    background-image: url(/img/InstagramBlanco.png);
+    background-image: url(/static/img/InstagramBlanco.png);
 }
 
 footer .social-link:nth-of-type(3){/*Nth of type inside that container*/
-    background-image: url(/img/Youtube.png);
+    background-image: url(/static/img/Youtube.png);
 }
 
 

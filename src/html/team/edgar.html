@@ -38,9 +38,8 @@
             <h1>Edgar Pinto</h1>
             <h2>Level Designer</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/edgarpinto03?igsh=MThvanJrMWEyd2Q0dA=="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/edgar-pinto-0a25232b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
     </section>
@@ -104,10 +103,11 @@
                     </div>
                 </div>
             </div>
-            <button>
-                Download CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
+        <a id="downloadLink" href="/static/cv/CVEdgar.pdf" download="CVEdgar.pdf" style="display: none;"></a>
+            <button onclick="downloadCV()">
+            Download CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+         </button>
         </div>
     </section>
 
@@ -186,5 +186,10 @@
     </footer>
 
     <script src="/src/javascript/script.js"></script>
+    <script>
+        function downloadCV() {
+            document.getElementById('downloadLink').click();
+        }
+    </script>
 </body>
 </html>

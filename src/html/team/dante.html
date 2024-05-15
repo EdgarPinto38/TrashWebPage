@@ -38,9 +38,8 @@
             <h1>Luis Martín</h1>
             <h2>Lead Developer</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/DanteDev4"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/luis-martin-743222255/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
     </section>
@@ -104,10 +103,11 @@
                     </div>
                 </div>
             </div>
-            <button>
-                Download CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
+            <a id="downloadLink" href="/static/cv/CVDante.pdf" download="CVDante.pdf" style="display: none;"></a>
+            <button onclick="downloadCV()">
+            Download CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+         </button>
         </div>
     </section>
 
@@ -121,15 +121,15 @@
                 <div class="col">
                     <h3>Technical Skills</h3>
                     <div class="skill">
-                        <span>Javascript</span>
+                        <span>Limpiar y mejorar código</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>75%</span>
+                                <span>95%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>HTML & CSS</span>
+                        <span>Diseño para juegos</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>89%</span>
@@ -137,7 +137,7 @@
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Photoshop</span>
+                        <span>Optimizar juegos para móviles</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>95%</span>
@@ -150,10 +150,10 @@
                 <div class="col">
                     <h3>Professional Skills</h3>
                     <div class="skill">
-                        <span>Comunicación</span>
+                        <span>Relaciones públicas</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>80%</span>
+                                <span>98%</span>
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@
                         <span>Trabajo en Equipo</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>70%</span>
+                                <span>80%</span>
                             </div>
                         </div>
                     </div>
@@ -186,5 +186,10 @@
     </footer>
 
     <script src="/src/javascript/script.js"></script>
+    <script>
+        function downloadCV() {
+            document.getElementById('downloadLink').click();
+        }
+    </script>
 </body>
 </html>

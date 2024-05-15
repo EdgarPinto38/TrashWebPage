@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Portfolio</title>
+    <title>Ana</title>
     <link rel="stylesheet" href="/src/css/members.css">
+    <link rel="icon" href="/static/img/LogoRosa.png" type="favicon">
 </head>
 <body>
     <!-- MENU ENCABEZADO -->
@@ -37,9 +38,9 @@
             <h1>Ana Rodríguez</h1>
             <h2>Scrum Master</h2>
             <div class="redes">
-                <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://twitter.com/AnaRdz_7"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.instagram.com/whosanarb/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/ana-rodr%C3%ADguez-46a553220/"><i class="fa-brands fa-linkedin-in"></i></a>
             </div>
         </div>
     </section>
@@ -61,7 +62,7 @@
                         </li>
                         <li>
                             <strong>Mobile</strong>
-                            +52 5565 3860 14
+                            +52 55 6538 6014
                         </li>
                         <li>
                             <strong>Email</strong>
@@ -95,18 +96,19 @@
                             <span>TRAVELS</span>
                         </div>
                         <div class="interes">
-                            <i class="fa-solid fa-book"></i>
-                            <span>BOOKS</span>
+                            <i class="fa-solid fa-masks-theater"></i>
+                            <span>THEATER</span>
                         </div>
                       
                         
                     </div>
                 </div>
             </div>
-            <button>
-                Download CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
+            <a id="downloadLink" href="/static/cv/CVAna.pdf" download="CVAna.pdf" style="display: none;"></a>
+            <button onclick="downloadCV()">
+            Download CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+         </button>
         </div>
     </section>
 
@@ -120,26 +122,26 @@
                 <div class="col">
                     <h3>Technical Skills</h3>
                     <div class="skill">
-                        <span>Javascript</span>
+                        <span>Programación en C#</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>75%</span>
+                                <span>97%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>HTML & CSS</span>
+                        <span>Habilidades básicas en fundamnetos de Scrum</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>89%</span>
+                                <span>91%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Photoshop</span>
+                        <span>Desarrollo Web</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>95%</span>
+                                <span>99%</span>
                             </div>
                         </div>
                     </div>
@@ -149,23 +151,23 @@
                 <div class="col">
                     <h3>Professional Skills</h3>
                     <div class="skill">
-                        <span>Comunicación</span>
+                        <span>Colaboración en proyectos de equipo</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>80%</span>
+                                <span>90%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Trabajo en Equipo</span>
+                        <span>Comprensión de la psicología de la comunicación</span>
                         <div class="barra-skill">
                             <div class="progreso">
-                                <span>70%</span>
+                                <span>97%</span>
                             </div>
                         </div>
                     </div>
                     <div class="skill">
-                        <span>Creatividad</span>
+                        <span>Resolución de problemas</span>
                         <div class="barra-skill">
                             <div class="progreso">
                                 <span>99%</span>
@@ -185,5 +187,10 @@
     </footer>
 
     <script src="/src/javascript/script.js"></script>
+    <script>
+        function downloadCV() {
+            document.getElementById('downloadLink').click();
+        }
+    </script>
 </body>
 </html>
