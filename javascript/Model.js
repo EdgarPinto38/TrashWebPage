@@ -27,7 +27,7 @@ import { OrbitControls } from 'three/examples/jsm/Addons.js';
 
     const gltfLoader = new GLTFLoader();
     gltfLoader.load(
-        '../../static/models/Racoon.gltf',
+        '../models/Racoon.gltf',
         (gltf) =>{
             const model = gltf.scene
             scene.add(gltf.scene)
@@ -37,7 +37,7 @@ import { OrbitControls } from 'three/examples/jsm/Addons.js';
         }
     )   
     const fontLoader = new FontLoader();
-    fontLoader.load('../../static/fonts/Bebas Neue_Regular.json',(font) => {
+    fontLoader.load('../fonts/Bebas Neue_Regular.json',(font) => {
         const textGeometry = new TextGeometry(
             'Trash Gamez',{
                 font: font,
