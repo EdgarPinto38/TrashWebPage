@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Luis</title>
-    <link rel="stylesheet" href="/src/css/members.css">
-    <link rel="icon" href="/static/img/LogoRosa.png" type="favicon">
+    <link rel="stylesheet" href="../../css/members.css">
+    <link rel="icon" href="../../img/LogoRosa.png" type="favicon">
 </head>
 <body>
     <!-- MENU ENCABEZADO -->
     <div class="contenedor-header">
         <header>
             <div class="logo">
-                <a href="#"><img src="/static/img/LogoBlanco.png"/></a>
+                <a href="#"><img src="../../img/LogoBlanco.png"/></a>
             </div>
             <nav id="nav">
                 <ul>
                     <li><a href="#sobremi" onclick="seleccionar()">About Me</a></li>
                     <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
-                    <li><a href="/index.html" onclick="seleccionar()">Home</a></li>
+                    <li><a href="../../index.html" onclick="seleccionar()">Home</a></li>
                 </ul>
             </nav>
             <div class="nav-responsive" onclick="mostrarOcultarMenu()">
@@ -33,7 +33,7 @@
     <section id="inicio" class="inicio">
         <div class="contenido-banner">
             <div class="contenedor-img">
-                <img src="/static/img/6.png" alt="">
+                <img src="../../img/6.png" alt="">
             </div>
             <h1>Luis Martín</h1>
             <h2>Lead Developer</h2>
@@ -103,7 +103,7 @@
                     </div>
                 </div>
             </div>
-            <a id="downloadLink" href="/static/cv/CVDante.pdf" download="CVDante.pdf" style="display: none;"></a>
+            <a id="downloadLink" href="../../cv/CVDante.pdf" download="CVDante.pdf" style="display: none;"></a>
             <button onclick="downloadCV()">
             Download CV <i class="fa-solid fa-download"></i>
             <span class="overlay"></span>
@@ -180,12 +180,12 @@
 
     <!-- footer -->
     <footer>
-        <a href="/index.html" class="arriba">
+        <a href="../../index.html" class="arriba">
             <i class="fa-solid fa-home"></i>
         </a>
     </footer>
 
-    <script src="/src/javascript/script.js"></script>
+    <script src="../../javascript/script.js"></script>
     <script>
         function downloadCV() {
             document.getElementById('downloadLink').click();
