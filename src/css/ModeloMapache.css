@@ -4,3 +4,7 @@ canvas{
     outline: none;
     left: 0;
 }
+
+#container{
+    height: 50vi;
+}
