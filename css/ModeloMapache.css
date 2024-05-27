@@ -1,0 +1,10 @@
+canvas{
+    position: relative;
+    top: 0;
+    outline: none;
+    left: 0;
+}
+
+#container{
+    height: 50vi;
+}

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../../img/LogoRosa.png" type="favicon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Edson</title>
+    <link rel="stylesheet" href="../../css/members.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="../../img/LogoBlanco.png"/></a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#sobremi" onclick="seleccionar()">About Me</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">Skills</a></li>
+                    <li><a href="../../index.html" onclick="seleccionar()">Home</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="../../img/4.png" alt="">
+            </div>
+            <h1>Edson Guitierrez</h1>
+            <h2>Animation and rigging manager</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/edson-guti%C3%A9rrez-prado-95368b27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>About Me</h2>
+            <p><span>Hi, I'm Edson Guitierrez </span> Edson is a fundamental piece in our videogame studio. His talent and creativity in creating animations for 3D models brings our characters and scenarios to life in a spectacular way. In addition, his ability to develop the narrative and lore of the game brings depth and cohesion to the game experience. His passion for storytelling and technical prowess make each project unique and exciting for our players.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Personal Data</h3>
+                    <ul>
+                        <li>
+                            <strong>Birthday</strong>
+                            07-02-2003
+                        </li>
+                        <li>
+                            <strong>Mobile</strong>
+                            +52 55 4779 6350
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                             edsongp1007@gmail.com
+                        </li>
+                        <li>
+                            <strong>Adress</strong>
+                            CDMX, México
+                        </li>
+                        <li>
+                            <strong>Position</strong>
+                            <span>Animation and rigging manager</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Interests</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>GAMES</span>
+                        </div>
+                        <div class="interes">
+                          <i class="fa-solid fa-film"></i>
+                            <span>MOVIES</span>
+                        </div>
+                        <div class="interes">
+                          <i class="fa-solid fa-ghost"></i>
+                            <span>ANIMATION</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>BOOKS</span>
+                        </div>
+                      
+                        
+                    </div>
+                </div>
+            </div>
+            <a id="downloadLink" href="../../cv/CVEdson.pdf" download="CVEdson.pdf" style="display: none;"></a>
+            <button onclick="downloadCV()">
+            Download CV <i class="fa-solid fa-download"></i>
+            <span class="overlay"></span>
+         </button>
+        </div>
+    </section>
+
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>3D Animation in Blender</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>93%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Rigging in Blender</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>C# programming</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>98%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Punctuality</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>96%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Teamwork</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>84%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resilience</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>                                  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="../../index.html" class="arriba">
+            <i class="fa-solid fa-home"></i>
+        </a>
+    </footer>
+
+    <script src="../../javascript/script.js"></script>
+    <script>
+        function downloadCV() {
+            document.getElementById('downloadLink').click();
+        }
+    </script>
+</body>
+</html>
